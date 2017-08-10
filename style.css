@@ -1,4 +1,53 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;`
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+}
+
+svg:hover {
+  fill: #62E2A3;
+}
+
 .container {
   display: flex;
   margin: 20px;
-};
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.connectfour {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: #3C1D66;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.connectfour:hover {
+  cursor: pointer;
+  content: url('connectfour.gif');
+}
+
+.polyrides {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: #082E77;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
