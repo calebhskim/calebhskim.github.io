@@ -28,10 +28,12 @@ svg:hover {
 }
 
 .connectfour {
+  background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   height: 200px;
   width: 200px;
-  background-color: #3C1D66;
   color: white;
   justify-content: center;
   align-items: center;
@@ -43,10 +45,24 @@ svg:hover {
 }
 
 .polyrides {
+  background: #43c6ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #43c6ac, #f8ffae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #43c6ac, #f8ffae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   height: 200px;
   width: 200px;
-  background-color: #082E77;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradecstaley {
+  background: #fc466b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc466b, #3f5efb); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc466b, #3f5efb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  height: 200px;
+  width: 200px;
   color: white;
   justify-content: center;
   align-items: center;
