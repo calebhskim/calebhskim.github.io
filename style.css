@@ -1,6 +1,69 @@
 body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #000046, #1CB5E0);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
   font-family: Helvetica, Arial, sans-serif;
-	font-size: 24px;`
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 svg {
@@ -9,14 +72,25 @@ svg {
 }
 
 svg:hover {
-  fill: #62E2A3;
+  fill: white;
 }
 
 .container {
+  position: relative;
+  z-index: 23;
   display: flex;
   margin: 20px;
   justify-content: center;
   align-items: center;
+}
+
+#home {
+  margin: 10px;
+}
+
+#homebutton {
+  position: absolute;
+  z-index: 64;
 }
 
 .project {
@@ -27,13 +101,20 @@ svg:hover {
   margin: 10px;
 }
 
-.connectfour {
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#projects {
   display: flex;
-  height: 200px;
-  width: 200px;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.connectfour {
+  display: flex;
+  height: 150px;
+  width: 150px;
   color: white;
   justify-content: center;
   align-items: center;
@@ -45,24 +126,18 @@ svg:hover {
 }
 
 .polyrides {
-  background: #43c6ac; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #43c6ac, #f8ffae); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #43c6ac, #f8ffae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   color: white;
   justify-content: center;
   align-items: center;
 }
 
 .gradecstaley {
-  background: #fc466b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fc466b, #3f5efb); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fc466b, #3f5efb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   color: white;
   justify-content: center;
   align-items: center;
