@@ -1,0 +1,28 @@
+body {
+  background-color: #FEFBF7;
+}
+
+.github:hover {
+  color: #e0b1d6;
+  fill: #e0b1d6;
+}
+
+.insta:hover {
+  color: #b1e0bb;
+  fill: #b1e0bb;
+}
+
+.linkedin:hover {
+  color: #b1d6e0;
+  fill: #b1d6e0;
+}
+
+.projects:hover {
+  color: #e0bbb1;
+  fill: #e0bbb1;
+}
+
+.resume:hover {
+  color: #bbb1e0;
+  fill: #bbb1e0;
+}
