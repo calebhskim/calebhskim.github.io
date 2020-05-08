@@ -41,7 +41,7 @@ const Links = (props) => {
       </a>
       <a
         className='projects'
-        href='https://calebhskim.github.io/'
+        href='https://calebhskim.github.io/projects'
         target='WOB_PROJECTS'
         onMouseOver={() => changeText('Projects')}
         onMouseOut={() => changeText('Caleb Kim')}
