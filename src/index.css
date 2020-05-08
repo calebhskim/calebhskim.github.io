@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fdf6e3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container: {
+  display: flex;
+  flex-direction: row;
+}
+
+.container svg {
+  height: 50px;
+}
+
+.circle-profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.github:hover {
+  color: #cb4b16;
+  fill: #cb4b16;
+}
+
+.insta:hover {
+  color: #dc322f;
+  fill: #dc322f;
+}
+
+.linkedin:hover {
+  color: #d33682;
+  fill: #d33682;
+}
+
+.projects:hover {
+  color: #6c71c4;
+  fill: #6c71c4;
+}
+
+.resume:hover {
+  color: #268bd2;
+  fill: #268bd2;
+}
